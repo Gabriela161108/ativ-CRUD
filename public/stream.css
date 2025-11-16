@@ -1,0 +1,190 @@
+body {
+    background-color: rgb(77, 46, 105);
+
+}
+
+.localDados {
+    background-color: rgb(180, 97, 248);
+    border: 3px solid rgb(130, 73, 235);
+    margin-top: 10px;
+    margin-left: 500px;
+    margin-right: 500px;
+    border-radius: 20px;
+}
+
+h1 {
+    color: black;
+}
+
+.h1 {
+    color: white;
+    padding-top: 10px;
+}
+
+.titulo {
+    color: white;
+    font-size: 50px;
+}
+
+h3 {
+    color: black;
+    font-size: 23px;
+}
+
+h4 {
+    color: white;
+    font-size: 20px;
+}
+
+
+img {
+    border-radius: 20px;
+    border: 2px solid black;
+    transition: transform 0.3s ease;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+
+.div1 {
+    background-color: rgb(70, 0, 128);
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 16px;
+    padding-right: 45px;
+    padding-left: 45px;
+    border-radius: 20px;
+}
+
+.div2 {
+    background-color: rgb(70, 0, 128);
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 16px;
+    padding-right: 25px;
+    padding-left: 25px;
+    border-radius: 20px;    
+}
+
+.nomesTitu {
+    background-color: rgb(70, 0, 128);
+    width: 250px;
+    border-radius: 20px;
+    color: white;
+
+}
+
+.test {
+    margin-left: 171.5px;
+    margin-right: 120px;
+}
+
+.teste {
+    display: flex; /* arrumar aparencia e class */
+}
+
+.divGrande {
+    background-color: rgb(142, 86, 247);
+    justify-content: center;
+    padding-bottom: 10px;
+    border-radius: 50px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+button {
+    color: white;
+    text-decoration: none;
+    background-color: rgb(27, 27, 27);
+    border: 2px solid rgb(212, 163, 0);
+    font-family: cursive;
+    width: 170px;
+    height: 45px;
+    border-radius: 40px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 20px;
+    color: rgb(255, 224, 120); 
+    margin-bottom: 20px;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+label {
+    font-size: 20px;
+}
+
+.textoChamativo {
+    background-color: rgb(180, 97, 248);
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 2px solid rgb(212, 163, 0);
+}
+
+.navegar1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(26, 25, 25);
+    color: white;
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 18px;
+    text-decoration: none;
+    font-family: cursive;
+    transition: transform 0.2 ease;
+}
+
+.navegar1:hover {
+    transform: scale(1.1);
+    background-color: rgb(204, 133, 1);
+    color: rgb(252, 252, 176);
+}
+
+.navegar2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(26, 25, 25);
+    color: white;
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 18px;
+    text-decoration: none;
+    font-family: cursive;
+    transition: transform 0.2 ease;
+}
+
+.navegar2:hover {
+    transform: scale(1.1);
+    background-color: rgb(204, 133, 1);
+    color: rgb(252, 252, 176);
+
+}
+
+.guardioes {
+    background-color: rgb(70, 0, 128);
+    width: 330px;
+    border-radius: 20px;
+    color: white;
+}

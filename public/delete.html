@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Excluir contas</title>
+    <link rel="stylesheet" href="crud.css">
+</head>
+<body>
+    <center>
+        <nav>
+            <a href="get.html">Cadastrados</a>
+            <a href="put.html">Editar Informações</a>
+            <a href="delete.html">Excluir logins</a>
+        </nav>
+
+    <form action="" class="formDelete">   
+        <h1>Deletar</h1>
+        <div class="formDelete">
+            <label>CPF:</label>
+            <input type="text" id="identificadorCPF">
+            <button type="button" onclick="deletarDados()" value="Deletar">Deletar</button>
+        </div>
+    </form>
+
+    <br><br>
+
+    <a href="index.html">Logout</a>
+
+    <script src="delete.js"></script>
+</body>
+</html>
